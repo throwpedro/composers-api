@@ -1,0 +1,6 @@
+CREATE TABLE composers (
+    id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(255),
+    last_name VARCHAR(255) NOT NULL,
+    best_works MEDIUMTEXT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
